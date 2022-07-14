@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat+Alternates&family=Montserrat:wght@200&family=Noto+Sans:wght@500&family=Poppins:wght@300&family=Radio+Canada:wght@700&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #1b1e23;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #bfa36f;
+    padding: 0.6rem 2rem;
+    position: fixed;
+    width: 97%;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    
+}
+
+
+
+.nav__ul li{
+
+    list-style: none;
+}
+
+.nav__ul--hor{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    
+    
+    
+}
+
+.nav__ul--hor:hover{
+    background-color: #d8ab57;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+
+
+
+.nav__vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 112px;
+    background-color: rgba(255, 255, 255, 0.74);
+    margin-top: 6px;
+    border-radius: 5px;
+ 
+    
+}
+
+.nav__vertical li{
+    width: 130.75px;
+    margin: 0;
+    border-radius:  5px;
+    
+}
+
+.nav__ul li:hover .nav__vertical{
+    display: block;
+    
+
+    
+}
+
+.nav__vertical li:hover{
+    background-color: #d55b16;
+    border-left: 2px solid black;
+}
+
+
+.nav__vertical a{
+    display: block;
+    color: black;   
+    padding: 5px 25px 15px 8px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 3px;
+    
+}
+
+
+.bx{
+    position: relative;
+    top: 1px;
+    font-size: 17px;
+    transition: transform linear .3s;
+}
+
+#comidas:hover > .bx{
+    transform:rotate(180deg);
+}
+
+
+.header__links a{
+    text-decoration: none;
+    color: black;
+    transition: color ease 0.3s;
+}
+
+.header__links a:first-child{
+    border-right: 2px solid black;
+    padding-right: 3px;
+}
+
+.header__links a:hover{
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.main__div-img{
+    display: flex;
+}
+
+.main__img{
+    margin: 0 auto;
+}
+
+    
+
+.main__titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+main h3{
+    text-align: center;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #d8ab57;
+}
+
+
+
+.main__section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+
+.section__tipoArticulo{
+    background-color: rgb(0 0 0 / 0.3);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    flex-basis: 200px;
+    transition: all ease .3s;
+    backface-visibility: hidden;
+    margin: 70px;
+}
+
+.menu__h2{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.menu__p{
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+
+   
+}
+.main__img-art{  
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;   
+}
+
+.section__tipoArticulo:hover{
+    box-shadow: 0 0 0.3rem #d8ab57;
+}
+
+.footer{
+    background-color: #d8ab57;
+    padding: 2rem 2rem;
+}
+
+.container__footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.bxl-instagram{
+    text-decoration: none;
+    color: black;
+    transition: color ease 0.3s;  
+    font-size: 25px;
+  
+}
+
+.container__logo{
+
+   font-size: 30px;
+
+}
+
+.bxl-instagram:hover{
+    color:white;
+}
+
+.link__footer{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    transition: color ease 0.3s;
+    margin-left: 50px;
+}
+
+.link__:hover{
+    
+    color: white;
+}
+
+
+.section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.footer{
+    margin-top: 50px;
+}
+
+.section p{
+    color: white;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.section i{
+    font-size: 23px;
+    padding: 2px;
+}
+
+
+.footer__h4{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
